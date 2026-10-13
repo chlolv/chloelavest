@@ -1,123 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chloé Lavest - CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            font-size: 2em;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        h2 {
-            font-size: 1.5em;
-            border-bottom: 2px solid #007bff;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        ul li strong {
-            color: #007bff;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .pdf-preview {
-            margin: 20px 0;
-            text-align: center;
-        }
-        .pdf-preview iframe {
-            width: 100%;
-            height: 600px;
-            border: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV – Chloé Lavest</title>
+  <meta name="description" content="Curriculum vitae of Chloé Lavest, PhD candidate in sociology at Utrecht University.">
+  <meta name="theme-color" content="#ECDBA7">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
-<nav>
-    <ul style="list-style: none; display: flex; justify-content: center; padding: 0; margin-bottom: 20px;">
-        <li style="margin-right: 15px;"><a href="./">Home</a></li>
-        <li style="margin-right: 15px;"><a href="cv.html">CV</a></li>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="./">Chloé Lavest</a>
+      <nav class="site-nav" aria-label="Main">
+      <a href="./">Home</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="misc.html">Misc.</a>
+      <a href="cv.html" aria-current="page">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="narrow">
+    <h1>Curriculum vitae</h1>
+    <div class="cv-actions">
+      <a class="btn solid" href="Academic_Resume_Lavest.pdf" download>Download full CV (PDF)</a>
+      <a class="btn" href="Academic_Resume_Lavest.pdf">Open in browser</a>
+    </div>
+
+    <h2>Education</h2>
+    <ul class="plain">
+      <li><strong>PhD in Sociology</strong>, Utrecht University<span class="when">Nov. 2022 – ongoing</span>
+        Provisional title: “Not so paradoxical after all? Antecedents of ethno-racial and gender discrimination perceptions in European countries”. Supervised by Frank van Tubergen, Meta van der Linden and Lucas Drouhot.</li>
+      <li><strong>Master’s Degree in Quantitative Sociology and Demography</strong>, University of Versailles and Saint-Quentin<span class="when">Sept. 2021 – June 2022</span></li>
+      <li><strong>Engineering Diploma in Data Science for Social Sciences</strong>, ENSAE, Institut Polytechnique de Paris<span class="when">Sept. 2018 – June 2022</span></li>
     </ul>
-</nav>
 
-        <div class="container">
-        <h1>Resume</h1>
-            <h2>Education</h2>
-            
-            <ul>
-                <li><strong>PhD Candidate:</strong> Utrecht University (2022 - Present) - Supervisors: Lucas Drouhot, Meta van der Linden, Frank van Tubergen</li>
-                <li><strong>Engineering Diploma:</strong> ENSAE - Institut Polytechnique de Paris (2018-2022) - Data Science for Social Sciences</li>
-                <li><strong>Master’s Degree:</strong> Université de Versailles et Saint-Quentin (2021-2022) - Quantitative Sociology and Demography</li>
-            </ul>
+    <h2>Other research experience</h2>
+    <ul class="plain">
+      <li><strong>Research Intern</strong>, INED – French National Demographic Institute, Aubervilliers<span class="when">Nov. 2021 – May 2022</span>
+        Research on self and proxy-reports of socio-economic variables using the French survey <em>Trajectoires et Origines</em>.</li>
+      <li><strong>Research Assistant</strong>, ENSAE, Massy-Palaiseau<span class="when">Oct. 2021 – May 2022</span>
+        Research assistance to Ivaylo Petev and Patrick Präg: study of French women’s driving habits using INSEE’s ENTD (1971–2018).</li>
+      <li><strong>Data Analyst</strong>, CAE – French Economic Council, Paris<span class="when">June 2020 – Mar. 2021</span>
+        Data analysis and report writing for the French government, including real-time consumer data from a French bank during the Covid-19 crisis.</li>
+    </ul>
 
-            <h2>Recent publications (see my CV below for a detailed overview)</h2>
-            <ul>
-                <li>
-                    L. Schäfer, and 23 authors, including <strong>C. Lavest</strong>. (2026)
-                    "Associations between inclusivity norms and tolerance, contact, and cooperation amid polarization: Evidence from 12 European countries". <em>PNAS Nexus</em>, <a href="https://doi.org/10.1093/pnasnexus/pgag087">https://doi.org/10.1093/pnasnexus/pgag087</a>.
-                </li>
-                                                                                                                                                                                      
-               <li>
-                    <strong>C. Lavest</strong>, Drouhot, L. G., Van Der Linden, M., & Van Tubergen, F. (2025). 
-                    Beyond the "integration paradox": Educational attainment similarly predicts gender discrimination among women and ethnic 
-                    discrimination among minorities. <em>European Sociological Review</em>, <a href="https://doi.org/10.1093/esr/jcaf039">https://doi.org/10.1093/esr/jcaf039</a>.
-                </li>
-                
-                <li>
-                    <strong>C. Lavest</strong>, M. Ferry, M. Ichou, P. Präg (2025) Who do they think you are? Inconsistencies in self- and proxy-reports of education within families, 
-                    <em>Social Science Research</em>, <a href="https://doi.org/10.1016/j.ssresearch.2025.103225">https://doi.org/10.1016/j.ssresearch.2025.103225</a>.
-                </li>
+    <p>Publications, grants, talks and service are listed on the <a href="research.html">Research</a> and <a href="misc.html">Misc.</a> pages, and in full in the PDF.</p>
 
-                <li>
-                    <strong>C. Lavest</strong>, M. Ferry, M. Ichou (2025) Répondre pour autrui : comparer les déclarations au sein des familles, 
-                    <em>Pre-print</em>, <a href="https://doi.org/10.31235/osf.io/mdj2g_v1">https://doi.org/10.31235/osf.io/mdj2g_v1</a>.
-                </li>
-                
-                <li>
-                    C. Landais, D. Bounie, Y. Camara, E. Fize, J. Galbraith, <strong>C. Lavest</strong>, T. Pazem, & B. Savatier. (2020). 
-                    "Consumption dynamics in the COVID crisis: Real-time insights from French transaction & bank data." 
-                    <em>CEPR Discussion Paper</em>, 15474. 
-                    <a href="https://doi.org/10.3386/w27431">https://doi.org/10.3386/w27431</a>
-                </li>
-            </ul>
-        </div>
+    <iframe class="pdf-frame" src="Academic_Resume_Lavest.pdf" title="Curriculum vitae of Chloé Lavest (PDF)"></iframe>
+  </main>
 
-        <div class="pdf-preview">
-            <p><strong>You can download my CV below:</strong></p>
-            <iframe src="Academic_Resume_Lavest.pdf"></iframe>
-            <p>
-                <a href="Academic_Resume_Lavest.pdf" download>Download the full CV (PDF)</a>
-            </p>
-        </div>
+  <footer class="site-footer">
+    © 2026 Chloé Lavest · Utrecht University · Last updated October 2026
+  </footer>
 </body>
 </html>
