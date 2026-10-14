@@ -27,7 +27,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: 0.7rem; /* Changed the sieze here -check */
   line-height: 1.7;
 }
 img { max-width: 100%; height: auto; }
